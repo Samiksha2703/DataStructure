@@ -18,8 +18,9 @@ class StackBussinessLogics {
         }
         else {
             this.size--;
-            let deleteItem = this.items[this.top - 1];
+            let deleteItem = this.items[this.top];
             this.top -= 1;
+            console.log("Delete Item is : "+deleteItem)
             return deleteItem;
         }
     }
