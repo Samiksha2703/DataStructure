@@ -61,18 +61,7 @@ class LinkedListOperations {
         }
         return string;
     }
-
-    addIntoArray(){
-        let linkedlistarray = new Array();
-        let curr = this.head;
-        let string = "";
-        while (curr){
-            string = curr.value;
-            linkedlistarray.push(string);
-        }
-            return linkedlistarray;
-        }
-    }
+}
 
 module.exports = LinkedListOperations;
 
